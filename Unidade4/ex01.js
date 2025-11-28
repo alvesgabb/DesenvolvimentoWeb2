@@ -39,15 +39,15 @@ app.get("/soma",(req,res)=>{
     const a =  req.query.a;
     const b = req.query.b;
 
-    //Convertendo para inteiro para conseguir somar
-    const aInt = parseInt(a);
-    const bInt= parseInt (b);
+    //Convertendo para número para conseguir somar
+    const aNum = Number (a);
+    const bNum = Number (b);
 
-    const soma = aInt+bInt;
+    const soma = aNum+bNum;
 
     res.json({
-        a: aInt,
-        b: bInt,
+        a: aNum,
+        b: bNum,
         resultado : soma
     })
 
