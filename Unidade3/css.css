@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #adc178
+}
+
+
+.buscar-filmes{
+    max-width: 700px;
+    text-align: center;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+
+input{
+   background-color: #ffffff;
+   height: 30px;
+   width: 300px;
+   border-radius: 10px;
+   border: none;
+}
+
+button{
+    margin-left: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#dde5b6
+}
+
+#resultado{
+    justify-content: center;
+    max-width: 700px;
+    align-items: center;
+}
+#resultado p{
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-align:center;
+    
+}
+#resultado img{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
